@@ -12,4 +12,4 @@ before_script:
 #  - ./tests/travis/memcache-setup.sh
   - cd tests
 
-script: phpunit --colors --no-globals-backup unit
+script: phpunit --colors --no-globals-backup unit/
